@@ -1,0 +1,23 @@
+@import "typography.css";
+@import "components/button.css";
+@import "components/input.css";
+@import "components/badge.css";
+
+/* Focus ring */
+.button:focused,
+.text-input:focused {
+    -fx-border-color: -color-accent-6;
+    -fx-border-width: 2px;
+    -fx-border-insets: -1px;
+}
+
+/* Overlay bg */
+.is-overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.32);
+}
+
+.is-overlay > .overlay-card {
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-background-color: -color-bg-subtle;
+}

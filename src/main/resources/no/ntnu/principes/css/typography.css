@@ -1,0 +1,66 @@
+.text-page-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-fill-height: 38px;
+    -fx-text-fill: -color-fg-default;
+}
+
+.text-section-header {
+    -fx-font-size: 24px;
+    -fx-font-weight: 600;
+    -fx-fill-height: 28px;
+    -fx-text-fill: -color-fg-default;
+}
+
+.text-subheader {
+    -fx-font-size: 20px;
+    -fx-font-weight: 500;
+    -fx-fill-height: 24px;
+    -fx-text-fill: -color-fg-muted;
+    -fx-prompt-text-fill: -color-fg-muted;
+    -fx-highlight-text-fill: -color-fg-muted;
+}
+
+.text-body {
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-fill-height: 21px;
+    -fx-text-fill: -color-fg-default;
+}
+
+.text-helper {
+    -fx-font-size: 12px;
+    -fx-font-weight: 400;
+    -fx-fill-height: 18px;
+    -fx-text-fill: -color-fg-muted;
+}
+
+.text-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+    -fx-cursor: hand;
+    -fx-fill-height: 19px;
+    /* x: 30, y: 10 */
+    -fx-border-radius: 5px;
+}
+
+.text-form-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-fill-height: 21px;
+    -fx-text-fill: -color-fg-muted;
+}
+
+.text-error-message {
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-fill-height: 21px;
+    -fx-text-fill: -color-danger-5;
+}
+
+.text-notification {
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-fill-height: 21px;
+    -fx-text-fill: -color-fg-default;
+}

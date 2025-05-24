@@ -1,0 +1,18 @@
+.text-input {
+    -fx-font-size: 16;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: -color-neutral-subtle;
+    -fx-border-color: -color-border-muted;
+}
+
+.text-input.error {
+    -fx-background-color: -color-danger-subtle;
+    -fx-border-color: -color-danger-emphasis;
+    -fx-border-width: 1px;
+}
+
+.error {
+    -fx-text-fill: -color-danger-fg;
+}

@@ -1,0 +1,91 @@
+.btn-selectable {
+    -fx-background-color: -color-bg-default;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-text-fill: -color-fg-default;
+    -fx-border-width: 1px;
+    -fx-border-color: -color-fg-default;
+    -fx-cursor: hand;
+}
+
+.btn-selectable.selected {
+    -fx-background-color: -color-fg-default;
+    -fx-text-fill: -color-bg-default;
+}
+
+.btn-selectable:focused {
+    -fx-border-color: -color-accent-6;
+    -fx-border-width: 2px;
+    -fx-border-insets: -1px;
+}
+
+.btn-selectable:hover,
+.hovered {
+    -fx-background-color: -color-bg-subtle;
+}
+
+.btn-selectable * {
+    -fx-text-fill: -color-white;
+}
+
+
+.btn-disabled {
+    -fx-opacity: 0.3;
+}
+
+.btn-navigation {
+    -fx-background-color: -color-accent-2;
+    -fx-background-insets: 0, 1px;
+    -fx-background-radius: 4px, 3px;
+    -fx-graphic-text-gap: 6px;
+    -fx-text-fill: -color-button-fg;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8px 12px 8px 12px;
+}
+
+.btn-navigation:hover {
+    -fx-border-width: 1px;
+    -fx-border-color: -color-accent-2;
+    -fx-border-insets: -1px;
+    -fx-text-fill: -color-button-fg;
+}
+
+.btn-navigation.selected:hover {
+    -fx-border-width: 0px;
+}
+
+.btn-navigation:focused {
+    -fx-border-color: -color-accent-9;
+    -fx-border-width: 2px;
+    -fx-border-insets: -2px;
+}
+
+.btn-navigation.selected {
+    -fx-background-color: -color-accent-9;
+    -fx-text-fill: -color-button-fg-selected;
+}
+
+.btn-navigation.selected .sidebar-button-icon {
+    -fx-fill: -color-bg-default;
+    -fx-text-fill: -color-button-fg-selected;
+    -fx-icon-color: -color-button-fg-selected;
+}
+
+/* Align all left center */
+.btn-navigation,
+.btn-navigation .sidebar-button-icon {
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Sidebar action button */
+
+.sidebar-action {
+    -fx-border-color: -color-accent-5;
+    -fx-border-width: 1px;
+    -fx-background-insets: 0, 1px;
+    -fx-background-radius: 4px, 3px;
+    -fx-graphic-text-gap: 6px;
+    -fx-text-fill: -color-button-fg;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8px 12px 8px 12px;
+}

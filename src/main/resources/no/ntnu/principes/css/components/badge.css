@@ -1,0 +1,65 @@
+/* "badge-default", "badge-info", "badge-warning", "badge-success", "badge-danger", "badge-outlined", "badge-primary" */
+.badge {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.badge.badge-default {
+    -fx-background-color: -color-bg-subtle;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-info {
+    -fx-background-color: -color-info-muted;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-warning {
+    -fx-background-color: -color-warning-muted;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-success {
+    -fx-background-color: -color-success-muted;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-danger {
+    -fx-background-color: -color-danger-muted;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-outlined {
+    -fx-background-color: transparent;
+    -fx-border-color: -color-bg-subtle;
+    -fx-border-width: 1px;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-primary {
+    -fx-background-color: -color-accent-muted;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-primary.badge-outlined {
+    -fx-background-color: transparent;
+    -fx-border-color: -color-primary-muted;
+    -fx-border-width: 1px;
+    -fx-text-fill: -color-primary-fg;
+}
+
+.badge.badge-primary.badge-outlined:hover {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-primary.badge-outlined:active {
+    -fx-background-color: -color-primary;
+    -fx-text-fill: -color-fg-subtle;
+}
+
+.badge.badge-primary.badge-outlined:disabled {
+    -fx-background-color: -color-bg-subtle;
+    -fx-text-fill: -color-fg-subtle;
+}
+
